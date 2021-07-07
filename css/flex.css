@@ -1,0 +1,43 @@
+#caja{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    background: rgba(111, 64, 197, 0.404);
+}
+
+#caja div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uno{
+    width: 20%;
+    background: rgb(255, 0, 0);
+}
+
+#dos{
+    width: 60%;
+    background: rgb(0, 255, 13);
+}
+
+#tres{
+    width: 60%;
+    background: rgb(55, 0, 255);
+}
+
+#cuatro{
+    width: 60%;
+    background: rgb(0, 217, 255);
+}
+
+#cinco{
+    width: 60%;
+    background: rgb(255, 153, 0);
+}
+
+#caja #dos, #tres, #cuatro{
+    display: flex;
+    align-items: stretch;
+}

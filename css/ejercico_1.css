@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 300px;
+    background: beige;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form #aver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    height: 300px;
+    border: 1px dotted black;
+}
+
+form #contens{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+form #tex{
+    width: 200px;
+    text-align: center;
+}
+
+form #pru{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: white;
+}
+
+form .acomo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+form #btn{
+    width: 80px;
+    height: 33px;
+}
+
+section h1{
+    text-align: center;
+}
+
+#caja{
+    background: rgba(26, 26, 172, 0.616);
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 1px 10px;
+    margin: 0px 3px;
+}
+
+.parrafo{
+    padding: 1px 10px;
+}
+
+#btn2{
+    background: red;
+    font-size: 20px;
+    width: 10%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+}
+
+#btn2:hover{
+    border: 1px solid black;
+}
+
+#btn2:active{
+    background:  rgba(255, 0, 0, 0.473);
+}
+
+.med{
+    background: rgba(27, 148, 57, 0.61);
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}

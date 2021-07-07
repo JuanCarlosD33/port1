@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+}
+
+body{
+	background: linear-gradient(white 33%,gray, black);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+header, .main, footer{
+	width: 80%;
+	margin: auto;
+	max-width: 900px;
+
+}
+
+
+header img{
+	width: 15%;
+
+}
+
+header ul{
+	background: white;
+	overflow: hidden;
+}
+
+header ul li{
+	float: left;
+	list-style: none;
+
+}
+
+header ul li a{
+	padding: 10px 20px;
+	display: block;
+	text-decoration-line: none;
+	color: red;
+}
+
+header ul li a:hover{
+	border: 1px solid black;
+	box-shadow: 1px 2px 3px black;
+}
+
+.main .textos {
+	
+	width: 68%;
+	float:left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
+aside{
+	background: lightblue;
+	width: 30%;
+	float:left;
+	padding: 15px;
+	box-sizing: border-box;
+	padding: 10px 15px;
+}
+
+.main .textos p{
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	background: white;
+	height: auto;
+	position: relative;
+	top: -15px;
+}
+
+
+footer{
+	clear: both;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+footer p{
+	padding: 10px 0px;
+}
